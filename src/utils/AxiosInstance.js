@@ -3,7 +3,7 @@ import axios from 'axios';
 let authToken = localStorage.getItem('authToken');
 
 const AxiosInstance = axios.create({
-    baseURL: 'http://localhost:3001/'
+    baseURL: 'https://duantotnghiep-api-a32664265dc1.herokuapp.com/'
 });
 
 AxiosInstance.interceptors.request.use(
