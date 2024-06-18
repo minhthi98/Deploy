@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Button.module.scss
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer; //thay đổi trỏ chuột
+}
+
+.reviewed {
+  display: flex;
+  width: 18%;
+  height: 5%;
+  background-color: #2BF186;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  font-family: "Poppins", "sans-serif";
+}
+
+
+.awaiting {
+  display: flex;
+  width: 18%;
+  height: 5%;
+  background-color: #f12b2c;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 10px;
+  align-items: center;
+  color: #fff;
+  font-family: "Poppins", "sans-serif";
+}
+
+.login {
+  display: flex;
+  width: 568px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #19d6e5;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+
+  &.forget_btn {
+    width: 550px;
+    height: 46px;
+    font-size: 20px;
+  }
+
+  &:hover {
+    background-color: #46e1e9;
+  }
+}
+
+.backLogin {
+  display: flex;
+  width: 568px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #f5fffa;
+  color: #54ddef;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+
+  &.forget_btn {
+    width: 550px;
+    height: 46px;
+    font-size: 20px;
+  }
+
+  &:hover {
+    background-color: #c8fde3;
+  }
+}
+
+.detail {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  background-color: #19d6e5;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 400;
+  align-items: center;
+  
+
+  &:hover {
+    background-color: #32dae6;
+  }
+}
+
+.approve_btn {
+  display: flex;
+  width: 23.8%;
+  height: 50px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #6c7afc;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #6c7afc;
+  }
+}
+
+.delete_btn {
+  display: flex;
+  width: 23.8%;
+  height: 50px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fe6868;
+  font-size: 25px;
+  color: #fff;
+
+  &:hover {
+    background-color: #fb5151;
+  }
+}

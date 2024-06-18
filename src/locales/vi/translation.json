@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "title": "Cài đặt",
+    "theme": "Chủ đề",
+    "lightMode": "Chế độ Sáng",
+    "darkMode": "Chế độ Tối",
+    "language": "Ngôn ngữ",
+    "fontSize": "Cỡ Chữ",
+    "small": "Nhỏ",
+    "medium": "Vừa",
+    "large": "Lớn"
+  },
+  "sidebar": {
+    "reportsStatistics": "Báo cáo và thống kê",
+    "dashboards": "Bảng điều khiển",
+    "voucherManager": "Quản lý voucher",
+    "addVoucher": "Thêm Voucher",
+    "allVouchers": "Tất cả Voucher",
+    "merchantManager": "Quản lý Merchant",
+    "newMerchant": "Merchant mới",
+    "allMerchants": "Tất cả Merchant",
+    "foodRequests": "Yêu cầu thức ăn",
+    "deletedMerchants": "Merchant đã xóa",
+    "shipperManager": "Quản lý Shipper",
+    "newShipper": "Shipper mới",
+    "allShippers": "Tất cả Shipper",
+    "deletedShippers": "Shipper đã xóa",
+    "userManager": "Quản lý người dùng",
+    "customer": "Khách hàng",
+    "orderManager": "Quản lý đơn hàng",
+    "order": "Đơn hàng",
+    "myAccount": "Tài khoản của tôi",
+    "infomation": "Thông tin",
+    "changePassword": "Đổi mật khẩu",
+    "logout": "Đăng xuất"
+  }
+}

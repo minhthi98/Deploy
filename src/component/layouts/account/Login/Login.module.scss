@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.textReset {
+  color: #257EE7;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+
+  &:hover {
+    color: #4295f4;
+  }
+}
+.textRemember {
+  color: #4F4E4E;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.rememberPassword {
+  width: 321px;
+  height: 21px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: -6px;
+  justify-content: center;
+  margin-top: 13.5px;
+}
+
+.textLogin {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnLogin {
+  display: flex;
+  width: 568px;
+  height: 48px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 156px;
+  margin-top: 25px;
+  background-color: #fff;
+  justify-content: center;
+
+  &:hover {
+    background-color: #19D6E5;
+  }
+}
+
+.iconEnd {
+  width: 20px;
+  height: 20px;
+  margin-left: 13px;
+}
+
+.iconStart {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.enterInfo {
+  display: flex;
+  width: 568px;
+  height: 48px;
+  background-color: #FBFBFB;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 156px;
+  margin-top: 25px;
+
+  input {
+    width: 385px;
+    height: 25px;
+    margin-left: 56px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: #323232;
+
+  }
+}
+.titleLogin { 
+  width: 412px;
+  height: 39px;
+  color: #577BF9;
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 319px;
+  margin-left: 304px;
+  margin-bottom: 39px;
+}
+
+.rightBackground {
+  flex: 1;
+}
+
+.textTitle {
+  color: #F2F2F2;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.title {
+  width: 378px;
+  height: 346px;
+  margin-top: 64px;
+  margin-left: 144px;
+}
+.slogen {
+  color: #323232;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.textLogo {
+  color: #202020;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-left: 23px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.logoContainer {
+  padding: 62px 85px;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  height: 98px;
+  align-items: center;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url('../../../../assets/images/backgroundLogin.png');
+  background-size: cover;
+  display: flex;
+}
+
+.leftBackground {
+  width: 35%;
+  height: 100%;
+}

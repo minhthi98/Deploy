@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "fontSize": "Font Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+  },
+  "sidebar": {
+    "reportsStatistics": "Reports and statistics",
+    "dashboards": "Dashboards",
+    "voucherManager": "Voucher manager",
+    "addVoucher": "Add Voucher",
+    "allVouchers": "All Vouchers",
+    "merchantManager": "Merchant manager",
+    "newMerchant": "New Merchant",
+    "allMerchants": "All Merchants",
+    "foodRequests": "Food Requests",
+    "deletedMerchants": "Deleted Merchants",
+    "shipperManager": "Shipper manager",
+    "newShipper": "New Shipper",
+    "allShippers": "All Shippers",
+    "deletedShippers": "Deleted Shippers",
+    "userManager": "User manager",
+    "customer": "Customer",
+    "orderManager": "Order manager",
+    "order": "Order",
+    "myAccount": "My account",
+    "infomation": "Information",
+    "changePassword": "Change Password",
+    "logout": "Logout"
+  }
+}

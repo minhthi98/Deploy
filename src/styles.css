@@ -1,0 +1,43 @@
+/* styles.css */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.small {
+  font-size: 15px;
+}
+
+body.medium {
+  font-size: 20px;
+}
+
+body.large {
+  font-size: 25px;
+}
+
+/* Style cho các thẻ p và span */
+body.light p, body.light span {
+  color: #000000;
+}
+
+body.dark p, body.dark span {
+  color: #ffffff;
+}
+
+body.small p, body.small span {
+  font-size: 15px;
+}
+
+body.medium p, body.medium span {
+  font-size: 20px;
+}
+
+body.large p, body.large span {
+  font-size: 25px;
+}

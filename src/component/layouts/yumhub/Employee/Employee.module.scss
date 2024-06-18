@@ -1,0 +1,125 @@
+.container {
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 700px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #004974;
+    text-align: center;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    margin-left:20px ;
+    display: flex;
+    justify-content: space-between; /* Added to space between the input and button */
+    align-items: center;
+}
+
+.search-bar input {
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.add-admin-button {
+    padding: 10px 20px;
+    background-color: #004974;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-admin-button:hover {
+    background-color: #003254;
+}
+
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    // justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: 33%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: inherit;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 2px solid #004974;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004974;
+}
+
+.userName, .email, .phone, .position {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+}
+.email {
+    margin-top: 20px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.75);
+}
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

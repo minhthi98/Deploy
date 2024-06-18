@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+// search-input
+.search-result {
+  width: 1170px;
+  height: 100%;
+  max-height: 80vh;
+  background-color: rgb(249, 244, 244);
+  overflow: auto;
+  scrollbar-width: none;
+
+  .search-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+// modal
+.modal-container {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  background-color: #caf1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+  // logo
+  .logo-merchant {
+    width: 48%;
+    height: 100%;
+    background-color: #e3e5fa;
+    position: relative;
+  }
+
+  .icon-back {
+    position: absolute;
+    color: #6f768d;
+    padding: 36px 36px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .ellpse {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+  }
+
+  .img-merchant {
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+//content modal
+.content-modal {
+  flex: 1;
+  padding: 0;
+  margin: 20px 20px;
+  scrollbar-width: none;
+  overflow: auto;
+}
+
+.container-content {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.name-merchant {
+  color: #000;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Montserrat Alternates", "sans-serif";
+  border: none;
+}
+
+.line {
+  height: 30px;
+  width: 1px;
+  background-color: #bfbfbf;
+  margin-left: 10px;
+}
+
+.type-merchant {
+  color: #50cc98;
+  font-family: "Montserrat Alternates", "sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 15px;
+  border: none;
+}
+
+.wrapper-content {
+  display: flex;
+  width: 90%;
+  height: 8.1%;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.title-merchant {
+  align-items: center;
+  padding: 0;
+  width: 32%;
+  height: 100%;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat Alternates", "sans-serif";
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content-merchant {
+  flex: 1;
+  color: #000;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Montserrat Alternates", "sans-serif";
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: none;
+}
+
+.wrapper-document {
+  display: flex ;
+  flex: 1;
+  margin-left: 30px;
+  margin-top: 20px;
+  // background-color: #4bc2e6;
+}
+
+.text-overAll-id-card {
+  color: #000;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 200px;
+  font-size: 18px;
+  font-family: "Montserrat Alternates", "sans-serif";
+
+}
+
+.btn-delete {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.wrapper-image-content {
+  width: 90%;
+  align-items: left;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.wrapper-title-document {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-check {
+  display: flex;
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Montserrat Alternates", "sans-serif";
+  background-color: #4bc2e6;
+}
+
+.text-check {
+  color: #fff;
+}
+
+.image-document {
+  width: 120px;
+  height: 180px;
+  margin-left : 20px;
+}
+
+.line-background {
+  display: flex;
+  height: 0.5px;
+  background-color: #939292;
+  margin-top: 35px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cột */
+  column-gap: 40px; /* Khoảng cách giữa các cột */
+  row-gap: 24px; /* Khoảng cách giữa các hàng */
+  margin-top: 35px;
+}
+
+.btn-detail {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  width: 80px;
+  height: 24px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 125px;
+}
+
+.textContent {
+  color: #6d76a4;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.contentBox {
+  margin-left: 15px;
+  margin-top: 8.5px;
+}
+
+.type {
+  color: #c4c4c7;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  margin-top: 9px;
+}
+
+.nameMerchant {
+  color: #6d76a4;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textTitle {
+  margin-top: 16px;
+  width: 55%;
+  padding-left: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.line-bottom {
+  height: 2px;
+  width: 100%;
+  background-color: #f0f5fa;
+}
+
+.line {
+  width: 2px;
+  height: 70px;
+  background-color: #f0f5fa;
+  margin-left: 20px;
+  margin: 0 0 2px 5px;
+}
+
+.logo {
+  width: 68px;
+  height: 100%;
+}
+
+.titleBox {
+  display: flex;
+  height: 66px;
+  width: 100%;
+}
+
+.box {
+  width: 227px;
+  height: 216px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.contaienr {
+  background-color: aliceblue;
+}
+
+.content {
+  flex: 1;
+  height: 750px;
+  padding: 51px 94px;
+  overflow: auto; /* Để có thể cuộn nếu nội dung quá dài */
+  scrollbar-width: none;
+}
+
+.title {
+  color: #6b6b6b;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.inputSearch {
+  display: flex;
+  width: 1170px;
+  height: 60px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-search {
+  color: #c2cfe0;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  padding: 20px 36px;
+  
+}
+
+.input {
+  margin: 0;
+  flex-grow: 1;
+  color: #90a0b7;
+  font-family: "Poppins", "sans-serif";
+  border: none;
+  outline: none; // bỏ mặc định
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}

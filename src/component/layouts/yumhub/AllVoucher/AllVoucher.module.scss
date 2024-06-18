@@ -1,0 +1,173 @@
+.container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 740px;
+  max-height: 90vh; // Set max height to control overall height
+  overflow-y: auto; // Enable vertical scrolling
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #004974;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline-end: 100px;
+}
+
+.table-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 100%; // Ensure the table container does not overflow its parent
+  overflow-y: auto; // Enable vertical scrolling within the table container
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #004974;
+  color: #ffffff;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #000000;
+}
+
+.status.Valid {
+  width: 82px;
+  background-color: #79deff;
+}
+
+.status.Not-valid {
+  background-color: #fff79e;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-icon {
+  cursor: pointer;
+  color: #007bff;
+  outline: none;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.action-icon:hover {
+  color: #0056b3;
+}
+
+.action-icon:focus {
+  outline: none;
+}
+
+// Styles for Modal
+.modal {
+  background: white;
+  border-radius: 8px;
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal p {
+  margin: 10px 0;
+}
+
+.modal button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
+.edit-modal {
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+  width: 600px;
+}
+
+.modal-title {
+  margin-bottom: 20px;
+}
+
+.modal-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.input-date {
+  margin-left: 10px;
+}
+.details-table {
+  max-width: 200px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+}
