@@ -28,7 +28,7 @@ import Settings from "../component/layouts/defaultLayout/header/Setting/Setting"
 
 // public routes
 const publicRoutes = [
-    { path: "/", component: Login, layout: null },
+    { path: "/deploy", component: Login, layout: null },
     { path: '/forgetPassword', component: ForgetPassword, layout: null  }, 
     { path: '/otp', component: OTP, layout: null }, 
     { path: '/resetPassword', component: ResetPassword, layout: null }, 
